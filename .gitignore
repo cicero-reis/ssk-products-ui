@@ -20,9 +20,10 @@ Thumbs.db
 *.bak
 *.tmp
 
-# Ignorar todos os arquivos de configuração de ambiente
+# Ignorar arquivos de configuração locais
 .env
-.env.*
+.env.local
+.env.*.local
 
 # Configurações de produção
 .env.production.local
